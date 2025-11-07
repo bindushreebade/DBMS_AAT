@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
-from flask_mysqldb import MySQL
+import pymysql
 import os
 from werkzeug.utils import secure_filename
 from config import Config
